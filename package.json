@@ -1,0 +1,16 @@
+{
+  "name": "js-lab-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meu hub de estudos e experimentos em JavaScript",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Erro: rode os testes dentro de cada workspace\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
