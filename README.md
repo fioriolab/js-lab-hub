@@ -11,7 +11,7 @@ Bem-vindo ao meu laboratório pessoal de estudos em **JavaScript Vanilla**. Este
 
 ## 🌐 Showcase (O Hub)
 O projeto principal deste repositório é o **[JS Lab Hub]**, uma interface moderna construída com JavaScript puro que centraliza todos os meus experimentos.
-> **Status:** Em desenvolvimento ativo 🛠️
+> **Acesse agora:** [Visualizar Hub Online](https://js-lab-hub-hub-main.vercel.app/)
 
 ---
 
