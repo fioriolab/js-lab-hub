@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle, #009dff, #007bff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0px 0px 7px #0061c8;
+    margin: 5px;
+}
+
+form p {
+    margin: 20px auto;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+form label {
+    display: block;
+    margin: 10px auto 5px auto;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 1px solid #afafaf;
+    padding: 10px;
+}
+
+input:focus-within {
+    border: 1px solid #007bff;
+}
+
+input[type='submit'] {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: none;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #0061c8;
+    transition-duration: .2s;
+}
+
+input[type='submit']:active {
+    background-color: black;
+    transition-duration: 0s;
+}
+
+.descricao-conteudo {
+    display: flex;
+    margin: 30px auto;
+}
+
+.descricao-conteudo h3 {
+    margin-bottom: 10px;
+}
+
+.descricao-1 {
+    margin-right: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-top: 10px;
+}
