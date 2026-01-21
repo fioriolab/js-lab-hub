@@ -8,7 +8,7 @@ const projetos = [
     tech: ["JavaScript", "Logic", "DOM"],
     linkGithub: "https://github.com/fioriolab/js-lab-hub/tree/main/apps/tabela-imc",
     linkDemo: "https://js-lab-hub-tabela-imc.vercel.app/",
-    image: "public/tabela-imc.png"
+    image: "/tabela-imc.png"
   },
   {
     title: "Título do Projeto",
