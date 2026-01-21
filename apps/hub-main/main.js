@@ -3,12 +3,12 @@ import './style.css'
 // 1. Seus dados de projetos
 const projetos = [
   {
-    title: "Título do Projeto",
-    description: "Descrição do Projeto.",
-    tech: ["JavaScript", "Local Storage", "DOM"],
-    linkGithub: "https://github.com/fioriolab",
-    linkDemo: "#",
-    image: "/lista-tarefas.png"
+    title: "Tabela IMC",
+    description: "Ferramenta de saúde que calcula o Índice de Massa Corporal e classifica o resultado conforme os padrões da OMS, com feedback visual imediato.",
+    tech: ["JavaScript", "Logic", "DOM"],
+    linkGithub: "https://github.com/fioriolab/js-lab-hub/tree/main/apps/tabela-imc",
+    linkDemo: "https://js-lab-hub-tabela-imc.vercel.app/",
+    image: "public/tabela-imc.png"
   },
   {
     title: "Título do Projeto",
